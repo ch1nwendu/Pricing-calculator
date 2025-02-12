@@ -1,0 +1,10 @@
+# Prompt user for number of copies to be printed
+num_copies = int(input("Enter the number of copies to be printed: "))
+
+# Calculate price per copy and total cost
+price_per_copy = 0.25
+total_cost = num_copies * price_per_copy
+
+# Display output
+print("Price per copy is: $%.2f" % price_per_copy)
+print("Total cost is: $%.2f" % total_cost)
